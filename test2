@@ -1,0 +1,16 @@
+import time
+
+time01= time.time() #start time
+
+a=""
+for i in range(1000000):
+    a +="zx"
+time02=time.time() #end time
+print(time02-time01)
+time03=time.time() #start time
+
+a=""
+for i in range(1000000):
+    a+="zx"
+time04=time.time() #end time
+print(time04-time03)
